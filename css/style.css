@@ -9,14 +9,14 @@
 .heroSection {
 	background: url("../img/darkTown.jpg") no-repeat ;
 	background-size: cover;
-	height: 75vh;
+	height: 100vh;
 }
 
 .characterCreation .row{
 	margin-bottom: 4%;
 }
 
-.characterCreation h5{
+.characterCreation h5, .container h5{
 	text-transform: uppercase;
 	font-size: 1em;
 	font-family: 'Montserrat', sans-serif;
@@ -34,6 +34,18 @@
 	letter-spacing: 1px;
 	color: firebrick;
 	border-bottom: 2px solid firebrick;
+}
+
+.logistics{
+	background: #F4F4F4;
+}
+
+.sessionUpdates{
+	margin-top: 2%;
+}
+
+.logistics .three.columns, .sessionUpdates .columns{
+	padding-top: 3%;
 }
 
 .sidebar{
