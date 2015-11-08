@@ -1,5 +1,50 @@
+.vertCenter{
+	  position: relative;
+	  top: 50%;
+	  -webkit-transform: translateY(-50%);
+	  -ms-transform: translateY(-50%);
+	  transform: translateY(-50%);
+}
+
 .heroSection {
 	background: url("../img/darkTown.jpg") no-repeat ;
 	background-size: cover;
-	height: 100vh;
+	height: 75vh;
 }
+
+.characterCreation .row{
+	margin-bottom: 4%;
+}
+
+.characterCreation h5{
+	text-transform: uppercase;
+	font-size: 1em;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+}
+
+.characterCreation .third .three:first-child, .characterCreation .fourth .three:first-child {
+	visibility: hidden;
+}
+
+.container h3{
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px;
+	color: firebrick;
+	border-bottom: 2px solid firebrick;
+}
+
+.sidebar{
+	background: #F4F4F4;
+	padding: 2%;
+}
+
+.leftText{
+	font-size: .85em;
+}
+
+
+
+
