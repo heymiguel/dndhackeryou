@@ -61,6 +61,10 @@
 	border-bottom: 2px solid firebrick;
 }
 
+.logistics p{
+	margin-bottom:.7em;
+}
+
 .logistics, .currentRoster{
 	background: #F4F4F4;
 }
