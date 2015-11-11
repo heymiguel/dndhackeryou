@@ -110,6 +110,7 @@
 .characterInfo img{
 	max-width: 50px;
 	display: inline;
+	float: left;
 }
 
 .characterBio{
@@ -118,11 +119,17 @@
 	vertical-align: top;
 	margin:0;
 	padding:0;
+	margin-left: 1em;
+	float: left;
+	width: 85%;
 }
 
 .characterBio h6{
 	margin:0;
 	padding:0;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: .8em;
 }
 
 footer{
